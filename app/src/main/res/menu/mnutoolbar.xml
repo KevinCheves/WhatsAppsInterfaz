@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/mnuNuevo"
+        android:title="Nuevo grupo"
+        android:orderInCategory="100"
+        app:showAsAction="never"></item>
+    <item android:id="@+id/mnuDif"
+        android:title="Nueva difusión"
+        android:orderInCategory="101"
+        app:showAsAction="never"></item>
+    <item android:id="@+id/mnuWsWeb"
+        android:title="WhatsApp Web"
+        android:orderInCategory="102"
+        app:showAsAction="never"></item>
+    <item android:id="@+id/mnuDest"
+        android:title="Mensajes destacados"
+        android:orderInCategory="102"
+        app:showAsAction="never"></item>
+    <item android:id="@+id/mnuAjustes"
+        android:title="Ajustes"
+        android:orderInCategory="102"
+        app:showAsAction="never"></item>
+</menu>

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="700dp"
+    tools:context=".MainActivityAjustes"
+    android:background="#FFFFFF"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#075E54"
+        android:padding="0dp">
+        <ImageButton
+            android:id="@+id/btnCamara"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:background="?attr/colorPrimary"
+            android:onClick="btnBack"
+            android:src="@drawable/iconback" />
+        <TextView
+            android:id="@+id/btnWsName"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="12dp"
+            android:background="?attr/colorPrimary"
+            android:text="Ajustes"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="60dp"
+        >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgAvatar1"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/profile1"
+            android:layout_marginLeft="-10dp"/>
+
+        <TextView
+            android:id="@+id/txtName1"
+            android:layout_width="145dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:text="Kevin Jordan"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/txtestado"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="35dp"
+            android:text="Estoy Ocupado!"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textSize="16sp" />
+        <ImageButton
+            android:id="@+id/imgCR"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="0dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/iconqr" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="140dp"
+        >
+        <ImageButton
+            android:id="@+id/iconsettings"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="0dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/iconkey" />
+
+        <TextView
+            android:id="@+id/txtNamekey"
+            android:layout_width="145dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="12dp"
+            android:text="Cuenta"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtdescripkey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="35dp"
+            android:text="Privacidad, seguridad, cambiar número"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="220dp"
+        >
+        <ImageButton
+            android:id="@+id/imgAvatar2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="0dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/iconsms2" />
+        <TextView
+            android:id="@+id/txtchats"
+            android:layout_width="145dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="12dp"
+            android:text="Chats"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtcchats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="35dp"
+            android:text="Tema, fondos de pantalla, historial de chat"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="300dp"
+        >
+        <ImageButton
+            android:id="@+id/imgAvatar3"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="0dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/iconnofif" />
+        <TextView
+            android:id="@+id/txtNotif"
+            android:layout_width="145dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="12dp"
+            android:text="Notificaciones"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtnotif2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="35dp"
+            android:text="Tonos de mensajes, grupos y llamadas"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="380dp"
+        >
+        <ImageButton
+            android:id="@+id/imgAvatar4"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="0dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/iconalm" />
+        <TextView
+            android:id="@+id/txtAlm"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="12dp"
+            android:text="Almacenamiento y datos"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtAlm2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="35dp"
+            android:text="Uso de red, descarga automática"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="460dp"
+        >
+        <ImageButton
+            android:id="@+id/imgAvatar5"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="0dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/iconayuda" />
+        <TextView
+            android:id="@+id/txtAyuda"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="5dp"
+            android:text="Ayuda"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtAyuda2"
+            android:layout_width="237dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="25dp"
+            android:text="Prefuntas frecuentes, Contáctanos, políticas"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="530dp"
+        >
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="4dp"
+            android:text="_________________________________________________"
+            android:textColor="#BCB7B7" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="560dp"
+        >
+        <ImageButton
+            android:id="@+id/imgAvatar6"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="0dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/iconayuda" />
+        <TextView
+            android:id="@+id/txtInvitar"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="12dp"
+            android:text="Invitar amigos"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="630dp"
+        >
+        <TextView
+            android:id="@+id/txtfb"
+            android:layout_width="237dp"
+            android:layout_height="42dp"
+            android:text="from"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/txtfb2"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="25dp"
+            android:text="FACEBOOK"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
